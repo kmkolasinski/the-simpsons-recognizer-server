@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     'rest_framework_simplejwt',
 
     'apps.users',
-    'apps.authentication'
+    'apps.authentication',
+    'apps.image_recognizer'
 ]
 
 MIDDLEWARE = [
