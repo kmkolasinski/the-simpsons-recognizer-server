@@ -1,0 +1,1 @@
+from .predict_image_view import PredictImageView
