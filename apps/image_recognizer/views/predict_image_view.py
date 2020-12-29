@@ -4,7 +4,7 @@ from rest_framework.exceptions import ParseError
 from rest_framework.response import Response
 from rest_framework.views import APIView
 
-from apps.image_recognizer.models.prediction import Prediction
+from apps.image_recognizer.non_database_models import Prediction
 from apps.image_recognizer.serializers import ImageSerializer
 from apps.image_recognizer.serializers import PredictionSerializer
 

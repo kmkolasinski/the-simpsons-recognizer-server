@@ -1,6 +1,6 @@
 from rest_framework import serializers
 
-from apps.image_recognizer.models.prediction import Prediction
+from apps.image_recognizer.non_database_models import Prediction
 
 
 class PredictionSerializer(serializers.Serializer):
