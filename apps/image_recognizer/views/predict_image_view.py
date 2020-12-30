@@ -10,7 +10,7 @@ from apps.image_recognizer.services import ImageRecognitionService
 
 
 class PredictImageView(APIView):
-    permission_classes = [permissions.AllowAny]
+    permission_classes = [permissions.IsAuthenticated]
 
     def post(self, request):
 
