@@ -1,2 +1,1 @@
-from .image_serializer import ImageSerializer
 from .prediction_serializer import PredictionSerializer
