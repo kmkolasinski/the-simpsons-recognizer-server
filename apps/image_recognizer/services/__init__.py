@@ -1,0 +1,1 @@
+from .image_recognition_service import ImageRecognitionService
